@@ -10,7 +10,8 @@ Skills are grouped in this repo so the Git tree stays readable. TeamAI still ins
 | `agent/` | Agent / Skill 工程 |
 | `biz/` | 通用业务域模板 |
 | `content/` | 内容、媒体、文档 |
+| `design/` | WorkBuddy 前端设计（Design Wizard / UI UX Pro Max） |
 | `search/` | 检索与外部 API |
-| `personal/` | 个人向 |
+| `personal/` | 个人向（含费曼学习法） |
 
 Excluded: Codex `.system` builtins, unnamed `skill_<id>` dirs, TeamAI built-in skills.
