@@ -1,0 +1,11 @@
+team: kria
+description: TeamAI shared resources
+repo: https://github.com/jiasongqi/kria_repo.git
+provider: github
+sharing:
+  rules:
+    enforced: []
+  docs:
+    localDir: ./.teamai/docs
+  env:
+    injectShellProfile: true
