@@ -1,0 +1,91 @@
+{
+  "our_products": [
+    { "name": "Adapundi", "platform": "ios", "category": "借贷" },
+    { "name": "CrediNex", "platform": "ios", "category": "借贷" }
+  ],
+  "competitor_groups": {
+    "lending_head": {
+      "label": "头部借贷竞品",
+      "description": "印尼市场头部借贷类App",
+      "apps": [
+        { "name": "Easycash",            "ios_id": "1435044790", "category": "借贷" },
+        { "name": "Adakami",             "ios_id": "1462715669", "category": "借贷" },
+        { "name": "Kredivo/Kredifazz",   "ios_id": "1255413338", "category": "借贷" },
+        { "name": "Rupiah Cepat",        "ios_id": "1603402758", "category": "借贷" },
+        { "name": "Kreditpintar",        "ios_id": "6444848617", "category": "借贷" },
+        { "name": "Indodana Finance",    "ios_id": "1485395726", "category": "借贷" },
+        { "name": "KrediOne",            "ios_id": "6474530590", "category": "借贷" },
+        { "name": "Kredito",             "ios_id": "1473092902", "category": "借贷" },
+        { "name": "Cairin",              "ios_id": "6447351335", "category": "借贷" },
+        { "name": "UangMe",              "ios_id": "1461448269", "category": "借贷" },
+        { "name": "Pinjamin",            "ios_id": "6477149824", "category": "借贷" },
+        { "name": "JULO",                "ios_id": "6739596452", "category": "借贷" },
+        { "name": "AmarthaFin",          "ios_id": "6446885044", "category": "借贷" },
+        { "name": "Dana Kini",           "ios_id": "1564045377", "category": "借贷" }
+      ]
+    },
+    "lending_long_tail": {
+      "label": "长尾借贷竞品（蝌蚪贷）",
+      "description": "印尼市场长尾蝌蚪贷类App",
+      "apps": [
+        { "name": "Pinjam Yuk",    "ios_id": "1350403324", "category": "蝌蚪贷" },
+        { "name": "Bantusaku",     "ios_id": "1619483828", "category": "蝌蚪贷" },
+        { "name": "Pinjamduit",    "ios_id": "6476541604", "category": "蝌蚪贷" },
+        { "name": "Uatas",         "ios_id": "1610701493", "category": "蝌蚪贷" },
+        { "name": "FINPLUS",       "ios_id": "1661244105", "category": "蝌蚪贷" },
+        { "name": "Samir",         "ios_id": "6475002606", "category": "蝌蚪贷" },
+        { "name": "KTA KILAT",     "ios_id": "6472646842", "category": "蝌蚪贷" },
+        { "name": "UKU",           "ios_id": "1488050503", "category": "蝌蚪贷" },
+        { "name": "Kredinesia",    "ios_id": "6444848364", "category": "蝌蚪贷" },
+        { "name": "Solusiku",      "ios_id": "1486755731", "category": "蝌蚪贷" }
+      ]
+    },
+    "repayment_ability": {
+      "label": "还款能力类App",
+      "description": "电商、钱包、出行类——用于评估用户还款能力",
+      "apps": [
+        { "name": "Shopee Indonesia",     "ios_id": "959841443",  "category": "电商购物" },
+        { "name": "ShopeePay",            "ios_id": "6455990519", "category": "电子钱包/支付" },
+        { "name": "GoPay",                "ios_id": "6446321594", "category": "电子钱包/支付" },
+        { "name": "DANA",                 "ios_id": "1437123008", "category": "电子钱包/支付" },
+        { "name": "Gojek",                "ios_id": "944875099",  "category": "出行与外卖" },
+        { "name": "Grab",                 "ios_id": "647268330",  "category": "出行与外卖" },
+        { "name": "Alfagift",             "ios_id": "1013717463", "category": "电商购物" },
+        { "name": "BRImo BRI",            "ios_id": "1439730817", "category": "金融服务/银行" },
+        { "name": "Livin by Mandiri",     "ios_id": "1555414743", "category": "金融服务/银行" },
+        { "name": "Traveloka",            "ios_id": "898244857",  "category": "旅游与订票" },
+        { "name": "Maxim",                "ios_id": "579985456",  "category": "出行与外卖" },
+        { "name": "myBCA",                "ios_id": "1440241902", "category": "金融服务/银行" },
+        { "name": "SeaBank",              "ios_id": "1525477806", "category": "金融服务/银行" },
+        { "name": "Access by KAI",        "ios_id": "901804734",  "category": "交通与票务" },
+        { "name": "Wondr by BNI",         "ios_id": "6499518320", "category": "金融服务/银行" },
+        { "name": "Superbank",            "ios_id": "6444720285", "category": "金融服务/银行" },
+        { "name": "WhatsApp",             "ios_id": "",           "category": "社交通讯" }
+      ]
+    },
+    "high_risk": {
+      "label": "高危类App（博彩/贷超/黑产）",
+      "description": "博彩、贷超、黑产类App，用于反欺诈策略",
+      "apps": [
+        { "name": "Pintar Dana",                      "ios_id": "", "category": "高危/贷超" },
+        { "name": "Dana Rahayu Mobile",               "ios_id": "", "category": "高危/贷超" },
+        { "name": "Yuk Uang - Pinjaman Uang Online",  "ios_id": "", "category": "高危/贷超" },
+        { "name": "Tunai Darurat - Instant Loan App", "ios_id": "", "category": "高危/贷超" },
+        { "name": "Uang Pintar - Pinjaman Online",    "ios_id": "", "category": "高危/贷超" },
+        { "name": "Dompet Tunai - Pinjaman Online",   "ios_id": "", "category": "高危/贷超" }
+      ],
+      "note": "ios_id 待补充，当前仅记录 app name 用于舆情监控"
+    },
+    "tools_risk": {
+      "label": "工具类高危App（越狱/刷机/改机）",
+      "description": "越狱、刷机、改机类App，用于反欺诈设备风控",
+      "apps": [
+        { "name": "Cydia",       "ios_id": "", "category": "越狱工具" },
+        { "name": "Sileo",       "ios_id": "", "category": "越狱工具" },
+        { "name": "Royal Dream", "ios_id": "", "category": "改机/虚拟化" },
+        { "name": "Neo Party",   "ios_id": "", "category": "改机/虚拟化" }
+      ],
+      "note": "ios_id 待补充，越狱类通常不在 App Store 上架，以包名/第三方源为主"
+    }
+  }
+}
