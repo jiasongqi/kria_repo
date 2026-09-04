@@ -17,7 +17,8 @@ rules/
 │   ├── security.md
 │   ├── code-review.md
 │   └── development-workflow.md
-├── zh/              # 中文翻译版本
+├── zh/              # 中文翻译 + 团队实践规范
+│   ├── RULES.md              # AI 编程规范主入口
 │   ├── coding-style.md
 │   ├── git-workflow.md
 │   ├── testing.md
@@ -27,7 +28,13 @@ rules/
 │   ├── agents.md
 │   ├── security.md
 │   ├── code-review.md
-│   └── development-workflow.md
+│   ├── development-workflow.md
+│   ├── debug.md
+│   └── refactor.md
+├── java/            # Java 特定
+│   ├── coding-style.md
+│   ├── java.md               # 阿里/Spring 实践规范
+│   └── JavaCode.md
 ├── typescript/      # TypeScript/JavaScript 特定
 ├── python/          # Python 特定
 ├── golang/          # Go 特定
@@ -36,8 +43,8 @@ rules/
 ```
 
 - **common/** 包含通用原则 — 无语言特定的代码示例。
-- **zh/** 包含 common 目录的中文翻译版本。
-- **语言目录** 扩展通用规则，包含框架特定的模式、工具和代码示例。每个文件引用其对应的通用版本。
+- **zh/** 包含 common 目录的中文翻译，以及团队实践规范（RULES.md / debug.md / refactor.md）。
+- **java/** 扩展通用规则，包含阿里巴巴手册实践与 Spring 约定。
 
 ## 安装
 

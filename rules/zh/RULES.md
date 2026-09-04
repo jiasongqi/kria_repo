@@ -1,6 +1,7 @@
 # ⚠️ AI 编程规范主入口 — RULES.md
 > **设计原则**：保持精简，只在需要时加载具体规范，避免上下文撑爆。
 > **适用工具**：Qoder / Claude Code / Cursor / Copilot
+> 中文工作流规范在 `rules/zh/`，Java 专项规范在 `rules/java/`。
 
 ================================================================
 
@@ -64,12 +65,12 @@ Step 6: 验证结果，确认不破坏已有功能
 
 | 我检测到的行为 | 我会自动加载 |
 |--------------|------------|
-| 你说"要提交了" / "帮我写 commit" / "分支怎么命名" | `git-commit.md` |
-| 你说"帮我 review" / "审查一下这段代码" / "代码质量" | `code-review.md` |
-| 你贴出错误日志 / 说"报错了" / "为什么不对" | `debug.md` |
-| 你说"这段代码太乱" / "重构一下" / "优化性能" | `refactor.md` |
-| 你在编写 Java 代码 / 问 Java 写法 | `java.md` + `JavaCode.md` |
-| 你在写任何代码 / 问命名/格式规范 | `coding-style.md` |
+| 你说"要提交了" / "帮我写 commit" / "分支怎么命名" | [`git-workflow.md`](git-workflow.md) |
+| 你说"帮我 review" / "审查一下这段代码" / "代码质量" | [`code-review.md`](code-review.md) |
+| 你贴出错误日志 / 说"报错了" / "为什么不对" | [`debug.md`](debug.md) |
+| 你说"这段代码太乱" / "重构一下" / "优化性能" | [`refactor.md`](refactor.md) |
+| 你在编写 Java 代码 / 问 Java 写法 | [`../java/java.md`](../java/java.md) + [`../java/JavaCode.md`](../java/JavaCode.md) |
+| 你在写任何代码 / 问命名/格式规范 | [`coding-style.md`](coding-style.md) |
 
 ---
 
@@ -77,12 +78,13 @@ Step 6: 验证结果，确认不破坏已有功能
 
 | 场景 | 文档 | 说明 |
 |------|------|------|
-| 提交代码 / 分支管理 | [`git-commit.md`](git-commit.md) | Git 提交规范、分支命名、提交前检查清单 |
+| 提交代码 / 分支管理 | [`git-workflow.md`](git-workflow.md) | Git 提交规范、分支命名、提交前检查清单、PR 流程 |
 | 代码审查 / 质量检查 | [`code-review.md`](code-review.md) | 审查维度、P0/P1/P2 清单、评审话术 |
 | Debug / 排查问题 | [`debug.md`](debug.md) | 排查流程、日志分析、常见问题清单 |
 | 重构 / 性能优化 | [`refactor.md`](refactor.md) | 重构前提、安全步骤、性能优化规范 |
-| Java 编码规范 | [`java.md`](java.md) + [`JavaCode.md`](JavaCode.md) | Java 专项规范 + 详细实施细则 |
+| Java 编码规范 | [`../java/java.md`](../java/java.md) + [`../java/JavaCode.md`](../java/JavaCode.md) | Java 专项规范 + 详细实施细则 |
 | 通用代码风格 | [`coding-style.md`](coding-style.md) | 命名/格式/注释 + 项目特殊约定 |
+| 功能开发流程 | [`development-workflow.md`](development-workflow.md) | 规划、TDD、审查、提交的完整管道 |
 
 ---
 
@@ -177,4 +179,4 @@ Step 6: 验证结果，确认不破坏已有功能
 
 ---
 
-*版本：3.0 | 更新：2026-04-03 | 来源：项目实践 + Claude Code 最佳实践 + Spec Coding 方法论*
+*版本：3.1 | 更新：2026-09-04 | 来源：项目实践 + Claude Code 最佳实践 + Spec Coding 方法论*

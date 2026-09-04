@@ -14,6 +14,14 @@ rules/
 │   ├── hooks.md
 │   ├── agents.md
 │   └── security.md
+├── zh/              # Chinese workflow + team conventions
+│   ├── RULES.md     # AI coding entry (lazy-load by scenario)
+│   ├── debug.md
+│   └── refactor.md
+├── java/            # Java specific
+│   ├── coding-style.md
+│   ├── java.md      # Alibaba / Spring practice
+│   └── JavaCode.md
 ├── typescript/      # TypeScript/JavaScript specific
 ├── python/          # Python specific
 ├── golang/          # Go specific

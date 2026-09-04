@@ -1,7 +1,11 @@
 ---
 trigger: always_on
+paths:
+  - "**/*.java"
 ---
 # Java Code Standards
+
+> This file extends [java.md](java.md). When they conflict, **java.md takes precedence**.
 
 ## Naming Conventions
 - Class names use **PascalCase** (e.g., `UserAccountService`, `PaymentProcessor`)

@@ -1,6 +1,11 @@
+---
+paths:
+  - "**/*.java"
+---
 # Java 编码规范 — java.md
 > 当你在编写 Java 代码时，加载本文件。
 > **双规范并行**：本文件 + `JavaCode.md`（详细规范）同时生效，有冲突以本文件为准。
+> 本文件扩展 [coding-style.md](coding-style.md) 与 [../zh/coding-style.md](../zh/coding-style.md)。
 
 ---
 
@@ -9,7 +14,7 @@
 ```
 阿里巴巴 Java 开发手册（基础底线）
     ↓ 继承并补充
-coding-style.md（通用代码风格）
+../zh/coding-style.md（通用代码风格）
     ↓ 继承并补充
 java.md（本文件，Java 专项规范）
     ↓ 详细实施细则
@@ -179,6 +184,9 @@ Map<Long, User> userMap = new HashMap<>(users.size() * 2);
 
 > 更多细节（方法文档格式、泛型使用、线程安全等）参见同目录下的：
 > **[JavaCode.md](JavaCode.md)**
+>
+> 现代 Java 特性（record / sealed / pattern matching）参见：
+> **[coding-style.md](coding-style.md)**
 
 ---
 

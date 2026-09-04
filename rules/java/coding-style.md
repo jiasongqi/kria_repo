@@ -112,3 +112,8 @@ public class OrderNotFoundException extends RuntimeException {
 
 See skill: `java-coding-standards` for full coding standards with examples.
 See skill: `jpa-patterns` for JPA/Hibernate entity design patterns.
+
+See also:
+- [java.md](java.md) — Alibaba / Spring 实践规范（异常、集合、金额、事务）
+- [JavaCode.md](JavaCode.md) — always-on 命名、Javadoc、空安全细则
+- [../zh/coding-style.md](../zh/coding-style.md) — 中文通用编码风格

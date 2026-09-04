@@ -1,6 +1,7 @@
 # 开发工作流
 
-> 此文件扩展 [common/git-workflow.md](./git-workflow.md)，包含 git 操作之前的完整功能开发流程。
+> 此文件扩展 [git-workflow.md](./git-workflow.md)，包含 git 操作之前的完整功能开发流程。
+> AI 编程规范主入口见 [RULES.md](./RULES.md)。
 
 功能实现工作流描述了开发管道：研究、规划、TDD、代码审查，然后提交到 git。
 
